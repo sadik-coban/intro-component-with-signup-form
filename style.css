@@ -49,15 +49,12 @@ html {
   border-color: hsl(248, 32%, 49%);
 }
 .button {
-  /* Green */
   border: none;
-
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-
   border-radius: 5px;
 }
 .try-it {
