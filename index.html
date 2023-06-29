@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <p class="description-text">
+        <span class="bold block title" style="color: white; margin-bottom: 8px"
+          >Learn to code by watching others</span
+        >
+        See how experienced developers solve problems in real-time. Watching
+        scripted tutorials is great, but understanding how developers think is
+        invaluable.
+      </p>
+      <div class="interactible">
+        <div class="button try-it" style="margin-bottom: 40px">
+          <p>Try it free 7 days then $20/mo. thereafter</p>
+        </div>
+
+        <div class="form">
+          <input
+            type="text"
+            name=""
+            id="first-name-input"
+            class="input-fields semi-bold"
+            placeholder="First Name"
+          />
+          <p class="warning-text" id="first-name-warning"></p>
+          <input
+            type="text"
+            name=""
+            id="last-name-input"
+            class="input-fields semi-bold"
+            placeholder="Last Name"
+          />
+          <p class="warning-text" id="last-name-warning"></p>
+          <input
+            type="email"
+            name=""
+            id="email-input"
+            class="input-fields semi-bold"
+            placeholder="Email Address"
+          />
+          <p class="warning-text" id="email-warning"></p>
+          <input
+            type="password"
+            name=""
+            id="password-input"
+            class="input-fields semi-bold"
+            placeholder="Password"
+          />
+          <p class="warning-text" id="password-warning"></p>
+          <button class="button semi-bold trial" onclick="check()">
+            CLAIM YOUR FREE TRIAL
+          </button>
+          <p class="term-text">
+            By clicking the button, you are agreeing to our
+            <span
+              style="color: hsl(0, 100%, 74%); font-size: 13px; cursor: pointer"
+              >Terms and Services</span
+            >
+            .
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
